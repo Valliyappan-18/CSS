@@ -1,0 +1,73 @@
+CSS - Cascading Style Sheet - is a stylesheet language used to describe the presentation of a document written in HTML or XML.
+
+It's also know styling the webpage.
+
+current version - CSS 3
+
+comment line in css:
+
+/* comment line */
+
+CSS Types:
+
+1.Inline
+
+2.Internal
+
+3.External
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Inline Css: it will use in the html document tags
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inline CSS </title>
+		
+	</head>
+	<body>
+		<h1>Inline CSS</h1>
+		<p style="background-color:#000;color:#fff;font-size:20px">Paragraph Tag Element</p>
+	</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Internal Css: It will used inside the head part
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Internal CSS </title>
+		<style>
+			h1{
+			    font-size:25px;
+			    background-color:#000;
+		            color: #fff;
+			    text-align:center;	
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Internal CSS</h1>
+	</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+External Css: create a seperate file with filename.css extension (eg: style.css) and link to html document.
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>External CSS </title>
+		<link rel=stylesheet href=style.css type=text/css>
+	</head>
+	<body>
+		<h1>External CSS</h1>
+	</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
