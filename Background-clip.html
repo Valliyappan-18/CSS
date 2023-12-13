@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Background Clip</title>
+        <meta name="description" content="Background-Properties">
+        <meta name="author" content="Valliyappan Periyakaruppan - GitHub - valliyappan-18">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-color:black;
+                color: #fff;
+            }
+            .h1{
+                background-color: aqua;
+                text-align: center;
+                font-variant: small-caps;
+                font-family: Roboto;
+                color:transparent;
+                -webkit-background-clip: text;
+            }
+            h1{
+                background-color: aqua;
+                text-align: center;
+                font-variant: small-caps;
+                font-family: Roboto;
+                color:black;
+            }
+            details{
+                font-size: 30px;
+                margin: 20px;
+                padding: 20px;
+                color: red;
+            }
+
+            details p{
+                font-size: 25px;
+                color: yellow;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 class="h1">Background clip</h1>
+        <!-- difference  -->
+        <h1>Background clip</h1>
+        <details>
+            <summary>Background Clip</summary>
+            <p>Backgrond Clip, Background image or color only in the selected text and It's visible in text format</p>
+        </details>
+    </body>
+</html>
