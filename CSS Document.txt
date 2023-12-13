@@ -2,6 +2,8 @@ CSS - Cascading Style Sheet - is a stylesheet language used to describe the pres
 
 It's also know styling the webpage.
 
+collection of formatting tags.
+
 current version - CSS 3
 
 comment line in css:
